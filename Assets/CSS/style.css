@@ -1,0 +1,11 @@
+@import url(header.css);
+@import url(banner.css);
+:root{
+    --cor-de-fundo:rgb(47, 0, 255);
+     --branco: rgb(0, 255, 213);
+    --laranja: #eb9b00;
+    --azul-degrade:linear-gradient(97.56deg,#000c52 35.49%, #0095ff 165.37%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
