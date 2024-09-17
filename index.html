@@ -64,37 +64,55 @@
         <div class="swiper-slide"><img src="Assets/IMG/AluraBooks/Guia Front-end.png" alt=""></div>
         <div class="swiper-slide"><img src="Assets/IMG/AluraBooks/Portugol.png" alt=""></div>
       </div>
-    <div class="card-descricao">
-      <div class="descricao">
-        <h3 class="descricao-titulo">Talvez você também se interesse por...</h3>
-        <h2 class="descricao-titulo-livro">Angular11 e Firebase</h2>
-        <p class="descricao-texto">Construindo uma aplicação integrada com a plataforma do Gologle</p>
-
-      </div>
-      <img src="Assets/IMG/AluraBooks/Angular.png" alt="">
+      <div class="swiper-pagination"> </div>
+      <div clss="swiper-button-prev"> </div>
+      <div class="swiper-button-next"> </div>
     </div>
-    <div class="card-botoes">
-        <div class="botoes">
-          <div class="botoes-item"><img src="Assets/IMG/AluraBooks/Favoritos.svg" alt=""></div>
-          <div class="botoes-item"><img src="Assets/IMG/AluraBooks/Compras.svg" alt=""></div>
+    <div class="card">
+      <div class="card-descricao">
+        <div class="descricao">
+          <h3 class="descricao-titulo"> Talvez voce também se interesse por...</h3>
+          <h2 class="descricao-livro"> Angular 11 e Firebase</h2>
+          <p class="descricao-texto"> Construindo uma aplicação integrada com a plataforma do Google.</h1>
         </div>
-        <a href="#" class="botao-ancora">Saiba mais!</a>
+        <img src="Assets/IMG/AluraBooks/Angular.png">
+      </div>
+      <div class="card-botoes">
+        <div class="botoes">
+          <div class="botoes-item"><img src="Assets/IMG/AluraBooks/Favoritos.svg"></div>
+          <div class="botoes-item"><img src="Assets/IMG/AluraBooks/Compras.svg"></div>
+
+        </div>
+        <a href="#" class="botao-ancora">Saiba mais</a>
+      </div>
     </div>
-
   </section>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
-  spaceVetween:10,
-  slidesPerView: 3,
-  pagination: {
-el:"swiper-pagination",
-type:"bullets",
+  <section class="topicos"> 
+    <h2 class="topicos-titulo"></h2>
+    <ul class="topicos lista">
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+      <li class="topico-item"><a href="#" class="topicos-link"></a></li>
+    </ul>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+          el: "swiper-pagination",
+          type: "bullets",
 
-  }
-  
-});
-  </script>
+        }
+      });
+    </script>
 </body>
 
 </html>
